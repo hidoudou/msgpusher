@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/token_tv"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="response"
+
+        android:textColor="#ffff0000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/get_fcm_token_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get FCM Token"/>
+
+        <Button
+            android:id="@+id/send_hello_msg_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="Send Hello Msg"/>
+
+        <Button
+            android:id="@+id/import_fcm_token_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IMPORT FCM TOKEN"
+            android:layout_alignParentRight="true"/>
+
+        <Button
+            android:id="@+id/import_server_key_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="60dp"
+            android:text="IMPORT SERVER KEY"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
